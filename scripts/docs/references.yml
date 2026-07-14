@@ -1,0 +1,7 @@
+cProgramming:
+  type: Book
+  title: C Programming A Modern Approach
+  author: K. N. King
+  page-total: 830
+  date: 2008
+  edition: 2
