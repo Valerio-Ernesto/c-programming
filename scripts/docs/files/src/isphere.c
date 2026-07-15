@@ -1,4 +1,5 @@
-/* Computes the volume of a sphere with a 10-meter radius.*/
+/* Takes the radius value provided by the user and calculates 
+ * the volume of the corresponding sphere.*/
 
 #include <stdio.h>
 
@@ -6,8 +7,10 @@ int main(void)
 {
 	float radius, pi, volume;
 
-	radius = 10.0f;
 	pi = 3.141592f;
+
+	printf("Enter the length of the radius of the sphere: ");
+	scanf("%f", &radius);
 
 	volume = (4.0f / 3.0f) * pi * radius * radius * radius;
 	
