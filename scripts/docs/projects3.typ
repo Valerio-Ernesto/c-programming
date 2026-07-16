@@ -1,0 +1,55 @@
+= C Programming A Modern Approach
+
+== Chapter 3 Formatted Input/Output
+
++ Write a program that accepts a date from the user in the form _mm/dd/yyyy_ and then displays
+  it in the form _yyyymmdd_:
+
+  ```
+  Enter a date (mm/dd/yyyy):2/17/2011
+  You entered the date 20110207
+  ```
++ Write a program that formats product information entered by the user. A session with the
+  program should look like this:
+
+  ```
+  Enter item number: 583
+  Enter unit price: 13.5
+  Enter purchase date (mm/dd/yyyy): 10/24/2010
+
+  Item            Unit            Purchase
+                  Price           Date
+  583             $  13.50        10/24/2010
+  ```
+  The item number and date should be left justified: the unit price should be right justified.
+  Allow dollar amounts up to \$9999.99. _Hint:_ Use tabs to line up the columns.
+
++ Books are identified by an International Standard Book NUmber (ISBN). ISBNs assigned
+  after January 1, 2007 contain 13 digits, arranged in five groups, such as 978-0-393-97950-3.
+  (Older ISBNs use 10 digits.) The first group (the _GSI prefix_) is currently either 978 or 979,
+  The _group identifier_ specifies the language or country of origin (for example, 0 and 1 are
+  used in English-speaking countries). The _publisher code_ identifies the publisher to (393 is the
+  code for W. W. Norton). The _item number_ is assigned by the publisher to identify a specific
+  book (97950 is the code for this book). An ISBN ends with a _check digit_ that's used to verify
+  the accuracy of the preceding digits. Write a program that breaks down an ISBN entered by
+  the user:
+
+  ```
+  Enter ISBN: 978-0-393-97950-3
+  GS1 prefix: 978
+  Group identifier: 0
+  Publisher code: 393
+  Item number: 97950
+  Check digit: 3
+  ```
+  _Note:_ The number of digits in each group may vary; you can't assume that groups have the
+  lengths shown in this example. Test your program with actual ISBN values (usually found
+  on the back cover of a book and on the copyright page).
+ 
++ Write a program that prompts the user to enter a telephone number in the form (xxx)xxx-xxxx
+  and then displays the number in the form xxx.xxxx.xxx:
+
+  ```
+  Enter phone number [(xxx) xxx-xxxx]: (404) 817-6900
+  You entered 404.817.6900
+  ```
