@@ -1,6 +1,0 @@
-Agregar bibliografía detallada de los capítulos en el archivo .yml
-2026-07-15 Responder los ejercicios del 3er capítulo. +Avanzado @C
-2026-07-15 Realizar los proyectos de programación del 3er capítulo. +Avanzado @C
-2026-07-15 Responder los ejercicios del 4to capítulo. +Avanzado @C
-2026-07-15 Realizar los proyectos de programación del 4to capítulo. +Avanzado @C
-Redactar el índice en el archivo README.typ

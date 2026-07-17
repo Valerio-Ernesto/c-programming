@@ -1,0 +1,58 @@
+= Development Log =
+
+Este documento registra el progreso diario del proyecto *c-programming*, las decisiones de diseño,
+los problemas encontrados y las tareas pendientes
+
+----
+
+== 2026-07-16 ==
+
+=== Objetivo ===
+* Redactar las hojas de mini+proyectos de los capítulos 3 y 4.
+
+=== Cambios realizados ===
+* Nueva plantilla `~/.vim/templates/cProject.typ` accesible con el comando `,proc`.
+* Documentación nueva en el archivo `c-programming/scripts/docs/devlog.wiki`.
+* Nuevas referencias detalladas en el archivo `c-programming/scripts/docs/references.yml`. 
+* Archivo `projects3.typ` completado.
+
+=== Commits ===
+* `*477d18` Implementar una plantilla para los archivos projecNo.typ
+
+=== Archivos modificados ===
+* `~/.vim/templates/cProject.typ`
+* `c-programming/scripts/docs/devlog.wiki` 
+* `c-programming/scripts/docs/references.yml`
+* `scripts/docs/projects3.typ`
+* `scripts/docs/projects4.typ`
+
+----
+
+== Problemas encontrados ==
+* Problema 1
+* Problema 2
+
+== Solución ==
+* Solución 1
+* Solución 2 
+	
+== Ideas futuras ==
+* Implementar un archivo Makefile para automatizar la compilación de los scripts en C.
+* Añadir documentación con Doxygen. 
+* Unificar toda la documentación y los textos para los ejercicios en con los formatos VimWiki y Doxygen.
+	A saber, los textos escritos en formato `Typst` y `MD` pasarían a formato `VimWiki`. Mientras que la
+	documentación del código fuente en `C` pasaría a realizarse en el formato y herramientas de Doxygen.
+
+== Pendientes ==
+* [x] Agregar bibliografía detallada de los capítulos en el archivo .yml
+* [] Responder los ejercicios del 3er capítulo. 
+* [] Realizar los proyectos de programación del 3er capítulo. 
+* [] Responder los ejercicios del 4to capítulo. 
+* [] Realizar los proyectos de programación del 4to capítulo. 
+* [] Redactar el índice en el :archivo README.md
+* [] Escribir más plantillas para la documnetación a la manera de devlog.wiki
+
+== Referencias ==
+
+
+== Notas ==

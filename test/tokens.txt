@@ -1,0 +1,7 @@
+Without spaces:
+
+	answers=(3*q-p*p)/3;
+
+With spaces:
+
+	answers = (3*q - p*p) / 3;
