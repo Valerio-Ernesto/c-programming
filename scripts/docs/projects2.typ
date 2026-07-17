@@ -14,7 +14,7 @@
   ```
 
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/stars.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/stars.c")[Source Code]]
   
 + Write a program that computes the volume of a sphere with a 10-meter
   radius, using the formula $v=4/3 pi r^3$. Write the fraction $4/3$ as
@@ -28,12 +28,12 @@
   The volume of the sphere of radius 10 is equal to 4188.789551 cubic meters.
   ```
 
-  #text(fill:eastern)[#link("files/src/sphere.c")[Source Code]]
+  #text(fill:eastern)[#link("files/chapter2/src/sphere.c")[Source Code]]
 
 + Modify the program of Programming Project 2 so that it prompts the user
   to enter the radius of the sphere.
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/isphere.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/isphere.c")[Source Code]]
   
 + Write a program that asks the user to enter a dollars-and-cents amount,
   then displays the amount with 5% tax added:
@@ -43,7 +43,7 @@
   With tax added: $105.00
   ```
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/tax.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/tax.c")[Source Code]]
   
 + Write a program that asks the user to enter a value for $x$ and then displays the value of the
   following polynomial:
@@ -53,7 +53,7 @@
   _Hint:_ C doesn't have an exponentiation operator, so you'll need to multiply $x$ by itself
   repeatedly in order to compute the powers of $x$. (For example, `x*x*x` is `x` cubed.)
   
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/polynom.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/polynom.c")[Source Code]]
 
 + Modify the program of Programming Project 5 so that the polynomial is evaluated using the
   following formula:
@@ -63,7 +63,7 @@
   Note that the modified program performs fewer multiplications. This technique for
   evaluating polynomials is known as *_Horner's Rule._*
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/fastPolynom.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/fastPolynom.c")[Source Code]]
 
 + Write a program that asks the user to enter a U. S. dollar amount and then shows how to pay that
   amount using the smallest number of \$20, \$10, \$5, and \$1 bills:
@@ -81,7 +81,7 @@
   the amount by the total value of the \$20 bills. Repeat for the other bill sizes. Be sure to use
   integer values throughout, not floating-point numbers.
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/bills.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/bills.c")[Source Code]]
 
 + Write a program that calculate the remaining balance on a loan after the first, second, and
   third monthly payments:
@@ -100,6 +100,6 @@
   interest rate. To find the monthly interest rate, convert the interest rate entered by the user to
   a percentage and divide it by 12.
 
-  #underline("Answer"): #text(fill:eastern)[#link("files/src/loan.c")[Source Code]]
+  #underline("Answer"): #text(fill:eastern)[#link("files/chapter2/src/loan.c")[Source Code]]
 
 #bibliography("references.yml")

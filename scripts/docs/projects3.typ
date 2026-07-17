@@ -1,14 +1,17 @@
 = C Programming A Modern Approach
 
-== Chapter 3 Formatted Input/Output
+== Chapter 3 Formatted Input/Output@cProgramming3
 
 + Write a program that accepts a date from the user in the form _mm/dd/yyyy_ and then displays
   it in the form _yyyymmdd_:
 
   ```
   Enter a date (mm/dd/yyyy):2/17/2011
-  You entered the date 20110207
+  You entered the date 20110217
   ```
+
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+
 + Write a program that formats product information entered by the user. A session with the
   program should look like this:
 
@@ -23,6 +26,8 @@
   ```
   The item number and date should be left justified: the unit price should be right justified.
   Allow dollar amounts up to \$9999.99. _Hint:_ Use tabs to line up the columns.
+
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
 
 + Books are identified by an International Standard Book NUmber (ISBN). ISBNs assigned
   after January 1, 2007 contain 13 digits, arranged in five groups, such as 978-0-393-97950-3.
@@ -46,6 +51,8 @@
   lengths shown in this example. Test your program with actual ISBN values (usually found
   on the back cover of a book and on the copyright page).
  
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+
 + Write a program that prompts the user to enter a telephone number in the form (xxx)xxx-xxxx
   and then displays the number in the form xxx.xxxx.xxx:
 
@@ -53,3 +60,41 @@
   Enter phone number [(xxx) xxx-xxxx]: (404) 817-6900
   You entered 404.817.6900
   ```
+
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+
++ Write a program that asks the user to enter the numbers from 1 to 16 (in any order) and then
+  displays the numbers in a 4 by 4 arrangement, followed by the sums of the rows, columns,
+  and diagonals:
+
+  ```
+  Enter the numbers from 1 to 16 in any order:
+  16 3 2 13 5 10 11 8 9 6 7 12 4 15 14 1
+
+  16  3  2 13
+   5 10 11  8
+   9  6  7 12
+   4 15 14  1
+
+  Row sums: 34 34 34 34
+  Column sums: 34 34 34 34
+  Diagonal sums: 34 34 
+  ```
+  If the row, column, and diagonal sums are all the same (as they are in this example), the
+  numbers are said to form a *_magic square_*. The magic square shown here appears in a 1514
+  engraving by artist and mathematician Albrecht Dürer. (Note that the middle numbers in the
+  last row give the date of the engraving.)
+
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+
++ Modify the `addfrac.c` program of Section 3.2 so that the user enters both fractions at the
+  same time, separated by a plus sign:
+
+  ```
+  Enter two fractions separated by a plus sign: 5/6+3/4
+  The sum is 38/24
+  ```
+  
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+
+  #bibliography("references.yml")
