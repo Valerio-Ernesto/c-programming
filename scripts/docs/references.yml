@@ -13,3 +13,11 @@ cProgramming3:
   page-range: 50-51
   page-total: 830
   date: 2008
+
+cProgramming4:
+  type: Book
+  title: C Programming A Modern Approach
+  author: K. N. King
+  page-range: 71-72
+  page-total: 830
+  date: 2008
