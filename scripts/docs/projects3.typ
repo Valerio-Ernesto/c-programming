@@ -10,7 +10,7 @@
   You entered the date 20110217
   ```
 
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/dates.c")[Source Code]]
 
 + Write a program that formats product information entered by the user. A session with the
   program should look like this:
@@ -27,9 +27,9 @@
   The item number and date should be left justified: the unit price should be right justified.
   Allow dollar amounts up to \$9999.99. _Hint:_ Use tabs to line up the columns.
 
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/receipt.c")[Source Code]]
 
-+ Books are identified by an International Standard Book NUmber (ISBN). ISBNs assigned
++ Books are identified by an International Standard Book Number (ISBN). ISBNs assigned
   after January 1, 2007 contain 13 digits, arranged in five groups, such as 978-0-393-97950-3.
   (Older ISBNs use 10 digits.) The first group (the _GSI prefix_) is currently either 978 or 979,
   The _group identifier_ specifies the language or country of origin (for example, 0 and 1 are
