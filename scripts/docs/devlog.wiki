@@ -5,6 +5,28 @@ los problemas encontrados y las tareas pendientes
 
 ----
 
+== 2026-07-18 ==
+
+=== Objetivo ===
+* Avanzar en los proyectos de C
+
+=== Cambios realizados ===
+* Nueva plantilla para agilizar la documentación.
+* 2 mini-proyectos de programación completados.
+* Los proyectos del capítulo 4 fueron pasados a limpio.
+
+=== Commits ===
+* `*7b4ed5` Proyectos 3.1 y 3.2 completados
+* `*4a025f` Redacción completada: projects4.typ
+
+=== Archivos modficados ===
+* `scripts/docs/files/chapter3/src/dates.c` (nuevo)
+* `scripts/docs/files/chapter3/src/receipt.c` (nuevo)
+* `scripts/docs/files/projects4.typ`
+* `~/.vim/templates/devlogSketch.wiki` (nuevo)
+
+----
+
 == 2026-07-16 ==
 
 === Objetivo ===

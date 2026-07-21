@@ -41,8 +41,8 @@
 
   ```
   Enter ISBN: 978-0-393-97950-3
-  GS1 prefix: 978
-  Group identifier: 0
+  GSI prefix: 978 
+  Group identifier: 0 
   Publisher code: 393
   Item number: 97950
   Check digit: 3
@@ -51,7 +51,7 @@
   lengths shown in this example. Test your program with actual ISBN values (usually found
   on the back cover of a book and on the copyright page).
  
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/isbn.c")[Source Code]]
 
 + Write a program that prompts the user to enter a telephone number in the form (xxx)xxx-xxxx
   and then displays the number in the form xxx.xxxx.xxx:
@@ -61,7 +61,7 @@
   You entered 404.817.6900
   ```
 
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/telephone.c")[Source Code]]
 
 + Write a program that asks the user to enter the numbers from 1 to 16 (in any order) and then
   displays the numbers in a 4 by 4 arrangement, followed by the sums of the rows, columns,

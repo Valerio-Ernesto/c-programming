@@ -1,16 +1,17 @@
 /* Comment your code */
 
 #include <stdio.h>
+#include <unistd.h>
 
 int main(void)
 {
-	int i;
-	float x, y;
+	int i = 10;
 
-	scanf("%f%d%f", &x, &i, &y);
-
-	printf("x = %g, i = %d, y = %g", x, i, y);
-
+	while (i > 0) {
+		printf("T minus %d and counting\n", i);
+		i -- ;
+		sleep(1);
+	}
 	return 0;
 }
 
