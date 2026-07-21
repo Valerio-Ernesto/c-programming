@@ -67,8 +67,8 @@ los problemas encontrados y las tareas pendientes
 
 == Pendientes ==
 * [x] Agregar bibliografía detallada de los capítulos en el archivo .yml
-* [] Responder los ejercicios del 3er capítulo. 
-* [] Realizar los proyectos de programación del 3er capítulo. 
+* [x] Responder los ejercicios del 3er capítulo. 
+* [o] Realizar los proyectos de programación del 3er capítulo. 
 * [] Responder los ejercicios del 4to capítulo. 
 * [] Realizar los proyectos de programación del 4to capítulo. 
 * [] Redactar el índice en el :archivo README.md
