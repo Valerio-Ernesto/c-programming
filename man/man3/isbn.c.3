@@ -1,0 +1,45 @@
+.TH "scripts/docs/files/chapter3/src/isbn.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter3/src/isbn.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB5\fP of file \fBisbn\&.c\fP\&.
+.nf
+6 {
+7     int gsiPrefix, groupIdentifier, publisher, item, checkDigit;
+8 
+9     printf("Enter ISBN: ");
+10     scanf("%d\-%d\-%d\-%d\-%d", &gsiPrefix, &groupIdentifier, &publisher, &item, &checkDigit);
+11 
+12     printf("GSI prefix: %d\\n", gsiPrefix);
+13     printf("Group identifier: %d\\n", groupIdentifier);
+14     printf("Publisher code: %d\\n", publisher);
+15     printf("Item number: %d\\n", item);
+16     printf("Check digit: %d\\n", checkDigit);
+17     
+18     return 0;
+19 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

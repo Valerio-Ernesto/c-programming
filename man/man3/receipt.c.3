@@ -1,0 +1,51 @@
+.TH "scripts/docs/files/chapter3/src/receipt.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter3/src/receipt.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB5\fP of file \fBreceipt\&.c\fP\&.
+.nf
+6 {
+7     int itemNo, day, month, year;
+8     float unitPrice;
+9 
+10     printf("Enter item number: ");
+11     scanf("%d", &itemNo);
+12     
+13     printf("Enter unit price: ");
+14     scanf("%f", &unitPrice);
+15 
+16     printf("Enter purchase date (mm/dd/yyyy): ");
+17     scanf("%d/%d/%d", &month, &day, &year);
+18 
+19     printf("\\nItem\\tUnit\\t\\tPurchase\\n");
+20     printf("\\tPrice\\t\\tDate\\n");
+21     printf(
+22             "%d\\t$%7\&.2f\\t%\-2\&.2d/%\-2\&.2d/%\-4\&.4d", itemNo, unitPrice, month, day, year
+23             );
+24     return 0;
+25 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

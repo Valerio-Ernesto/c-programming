@@ -1,0 +1,42 @@
+.TH "scripts/docs/files/chapter2/src/tax.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter2/src/tax.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB6\fP of file \fBtax\&.c\fP\&.
+.nf
+7 {
+8     float amount, total;
+9 
+10     printf("Enter an amount: ");
+11     scanf("%f", &amount);
+12 
+13     total = amount * 1\&.05f;
+14 
+15     printf("With tax added: %\&.2f", total);
+16     return 0;
+17 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

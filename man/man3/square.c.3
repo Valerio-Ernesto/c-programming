@@ -1,0 +1,71 @@
+.TH "scripts/docs/files/chapter3/src/square.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter3/src/square.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB5\fP of file \fBsquare\&.c\fP\&.
+.nf
+6 {
+7     int no1, no2, no3, no4, no5, no6, no7, no8;
+8     int no9, no10, no11, no12, no13, no14, no15, no16;
+9 
+10     int row1, row2, row3, row4;
+11     int column1, column2, column3, column4;
+12     int diagonal1, diagonal2;
+13 
+14     printf("Enter the numbers from 1 to 16 in any order:\\n");
+15 
+16     scanf(
+17             "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d",
+18             &no1, &no2, &no3, &no4, &no5, &no6, &no7, &no8, &no9,
+19             &no10, &no11, &no12, &no13, &no14, &no15, &no16
+20             );
+21 
+22     row1 = no1 + no2 + no3 + no4;
+23     row2 = no5 + no6 + no7 + no8;
+24     row3 = no9 + no10 + no11 + no12;
+25     row4 = no13 + no14 + no15 + no16;
+26 
+27     column1 = no1 + no5 + no9 + no13;
+28     column2 = no2 + no6 + no10 + no14;
+29     column3 = no3 + no7 + no11 + no15;
+30     column4 = no4 + no8 + no12 + no16;
+31 
+32     diagonal1 = no1 + no6 + no11 + no16;
+33     diagonal2 = no4 + no7 + no10 + no13;
+34 
+35     printf("\\n%2d %2d %2d %2d\\n", no1, no2, no3, no4);
+36     printf("%2d %2d %2d %2d\\n", no5, no6, no7, no8);
+37     printf("%2d %2d %2d %2d\\n", no9, no10, no11, no12);
+38     printf("%2d %2d %2d %2d\\n", no13, no14, no15, no16);
+39 
+40     printf("\\nRow sums: %d %d %d %d\\n", row1, row2, row3, row4);
+41     printf("Column sums: %d %d %d %d\\n", column1, column2, column3, column4);
+42     printf("Diagonal sums: %d %d\\n", diagonal1, diagonal2);
+43 
+44     return 0;
+45 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

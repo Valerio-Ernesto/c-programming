@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C Programming: C Programming</title>
+<title>C Programming: scripts/docs/files/chapter2/src/sphere.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('sphere_8c.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -114,34 +114,63 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html',''
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">C Programming </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">sphere.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="intro"></a>
-Introduction</h1>
-<p>This documentation contains the solutions and source code for the programming exercises developed while studying the C programming language.</p>
-<h1 class="doxsection"><a class="anchor" id="structure"></a>
-Project Structure</h1>
-<ul>
-<li>Chapter 2</li>
-<li>Chapter 3</li>
-<li>Chapter 4</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="build"></a>
-Building</h1>
-<p>Compile the programs with GCC:</p>
-<div class="fragment"><div class="line"> (.sh)</div>
-<div class="line">gcc hello.c -o hello</div>
-</div><!-- fragment --><p>@authot Ernesto Valenzuela Valerio </p><dl class="section date"><dt>Date</dt><dd>2026 </dd></dl>
-</div></div><!-- PageDoc -->
-<a href="doxygen_crawl.html"></a>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+</div>
+<p><a href="sphere_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sphere_8c_source.html#l00005">5</a> of file <a class="el" href="sphere_8c_source.html">sphere.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <span class="keywordtype">float</span> radius, pi, volume;</div>
+<div class="line"><span class="lineno">    8</span> </div>
+<div class="line"><span class="lineno">    9</span>    radius = 10.0f;</div>
+<div class="line"><span class="lineno">   10</span>    pi = 3.141592f;</div>
+<div class="line"><span class="lineno">   11</span> </div>
+<div class="line"><span class="lineno">   12</span>    volume = (4.0f / 3.0f) * pi * radius * radius * radius;</div>
+<div class="line"><span class="lineno">   13</span>    </div>
+<div class="line"><span class="lineno">   14</span>    printf(<span class="stringliteral">&quot;The volume of the sphere of radius 10 is equal to %f cubic meters&quot;</span>, volume);</div>
+<div class="line"><span class="lineno">   15</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   16</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a href="dir_841074a078738926b5f0a0be4322e069.html">docs</a></li><li class="navelem"><a href="dir_6ee2f945a716c794a307e7b02908117c.html">files</a></li><li class="navelem"><a href="dir_674529d37a276663f2578bd75772302a.html">chapter2</a></li><li class="navelem"><a href="dir_3dcb2c8c19a6c485e972c485ea6891ca.html">src</a></li><li class="navelem"><a href="sphere_8c.html">sphere.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>

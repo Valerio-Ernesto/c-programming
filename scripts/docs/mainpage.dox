@@ -1,0 +1,25 @@
+/**
+* @mainpage C Programming
+*
+* @section intro Introduction
+*
+* This documentation contains the solutions and source code for the
+* programming exercises developed while studying the C programming language.
+* 
+* @section structure Project Structure
+* 
+* - Chapter 2
+* - Chapter 3
+* - Chapter 4
+* 
+* @section build Building 
+* 
+* Compile the programs with GCC:
+* 
+* @code(.sh)
+* gcc hello.c -o hello
+* @endcode
+* 
+* @authot Ernesto Valenzuela Valerio
+* @date 2026
+*/

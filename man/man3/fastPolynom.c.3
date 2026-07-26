@@ -1,0 +1,42 @@
+.TH "scripts/docs/files/chapter2/src/fastPolynom.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter2/src/fastPolynom.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB6\fP of file \fBfastPolynom\&.c\fP\&.
+.nf
+7 {
+8   float i, result;  
+9 
+10     printf("Enter a real value: ");
+11     scanf("%f", &i);
+12 
+13     result = ((((3*i +2)*i \-5)*i \-1)*i +7)*i \-6;
+14     printf("The value is: %g", result);
+15 
+16     return 0;
+17 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

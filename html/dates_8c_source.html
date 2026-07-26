@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C Programming: C Programming</title>
+<title>C Programming: scripts/docs/files/chapter3/src/dates.c Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('dates_8c_source.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -114,34 +114,37 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html',''
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">C Programming </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">dates.c</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="intro"></a>
-Introduction</h1>
-<p>This documentation contains the solutions and source code for the programming exercises developed while studying the C programming language.</p>
-<h1 class="doxsection"><a class="anchor" id="structure"></a>
-Project Structure</h1>
-<ul>
-<li>Chapter 2</li>
-<li>Chapter 3</li>
-<li>Chapter 4</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="build"></a>
-Building</h1>
-<p>Compile the programs with GCC:</p>
-<div class="fragment"><div class="line"> (.sh)</div>
-<div class="line">gcc hello.c -o hello</div>
-</div><!-- fragment --><p>@authot Ernesto Valenzuela Valerio </p><dl class="section date"><dt>Date</dt><dd>2026 </dd></dl>
-</div></div><!-- PageDoc -->
-<a href="doxygen_crawl.html"></a>
-</div><!-- contents -->
+<a href="dates_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* This program accepts a date from the user in</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * the form mm/dd/yyyy and then displays it in the</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * form yyyymmdd.*/</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="}">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="dates_8c.html#a840291bc02cba5474a4cb46a9b9566fe">    7</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="dates_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keywordtype">int</span> day, month, year;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    printf(<span class="stringliteral">&quot;Enter a date (mm/dd/yyyy): &quot;</span>);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    scanf(<span class="stringliteral">&quot;%d/%d/%d&quot;</span>, &amp;month, &amp;day, &amp;year);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    printf(<span class="stringliteral">&quot;You entered the date %4.4d%2.2d%2.2d&quot;</span>, year, month, day);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
+</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="ttc" id="adates_8c_html_a840291bc02cba5474a4cb46a9b9566fe"><div class="ttname"><a href="dates_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a></div><div class="ttdeci">int main(void)</div><div class="ttdef"><b>Definition</b> <a href="#l00007">dates.c:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a href="dir_841074a078738926b5f0a0be4322e069.html">docs</a></li><li class="navelem"><a href="dir_6ee2f945a716c794a307e7b02908117c.html">files</a></li><li class="navelem"><a href="dir_9cba836728f55d31f33e786d49fa99d6.html">chapter3</a></li><li class="navelem"><a href="dir_ce59c409e946cef9491114fcbf1889ee.html">src</a></li><li class="navelem"><a href="dates_8c.html">dates.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>

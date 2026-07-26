@@ -1,0 +1,84 @@
+.TH "scripts/docs/files/chapter4/src/reverse.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter4/src/reverse.c \- Reverses the digits of a two-digit number\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.RI "Program entry point\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Reverses the digits of a two-digit number\&. 
+
+This program prompts the user to enter a two-digit integer and prints the number with its digits reversed\&.
+
+.PP
+Example: 
+.PP
+.nf
+Enter a two\-digit number: 28
+The reversal is: 82
+
+.fi
+.PP
+ 
+.PP
+Definition in file \fBreverse\&.c\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Program entry point\&. Prompts the user for a two-digit integer, extracts its digits using the modulus (%) and integer division (/) operators, and prints the digits in reverse order\&.
+
+.PP
+\fBReturns\fP
+.RS 4
+Returns 0 if the program terminates successfully\&. 
+.RE
+.PP
+
+.PP
+Definition at line \fB26\fP of file \fBreverse\&.c\fP\&.
+.nf
+27 {
+28     /* Stores the original number entered by the user\&. */
+29     int number;
+30 
+31     /* Stores the units digit of the number\&. */
+32     int firstDigit; 
+33 
+34     /* Stores the tens digit of the number */
+35     int secondDigit;
+36 
+37     printf("Enter a two\-digit number: ");
+38     scanf("%d", &number);
+39     
+40   /* Extract the units digit\&. */
+41   firstDigit = number % 10;
+42 
+43     /* Extract the tens digit\&. */
+44     secondDigit = number / 10;
+45 
+46     printf("The reversal is: %d%d", firstDigit, secondDigit);
+47 
+48     return 0;
+49 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

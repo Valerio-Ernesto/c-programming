@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C Programming: C Programming</title>
+<title>C Programming: scripts/docs/files/chapter2/src/fastPolynom.c Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('fastPolynom_8c_source.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -114,34 +114,38 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html',''
 </div>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">C Programming </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">fastPolynom.c</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="intro"></a>
-Introduction</h1>
-<p>This documentation contains the solutions and source code for the programming exercises developed while studying the C programming language.</p>
-<h1 class="doxsection"><a class="anchor" id="structure"></a>
-Project Structure</h1>
-<ul>
-<li>Chapter 2</li>
-<li>Chapter 3</li>
-<li>Chapter 4</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="build"></a>
-Building</h1>
-<p>Compile the programs with GCC:</p>
-<div class="fragment"><div class="line"> (.sh)</div>
-<div class="line">gcc hello.c -o hello</div>
-</div><!-- fragment --><p>@authot Ernesto Valenzuela Valerio </p><dl class="section date"><dt>Date</dt><dd>2026 </dd></dl>
-</div></div><!-- PageDoc -->
-<a href="doxygen_crawl.html"></a>
-</div><!-- contents -->
+<a href="fastPolynom_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* This program asks the user to enter a value for x and then </span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * displays the value of the following polynomial.*/</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="foldopen" id="foldopen00006" data-start="{" data-end="}">
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="fastPolynom_8c.html#a840291bc02cba5474a4cb46a9b9566fe">    6</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="fastPolynom_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>  <span class="keywordtype">float</span> i, result;  </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    printf(<span class="stringliteral">&quot;Enter a real value: &quot;</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    scanf(<span class="stringliteral">&quot;%f&quot;</span>, &amp;i);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    result = ((((3*i +2)*i -5)*i -1)*i +7)*i -6;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    printf(<span class="stringliteral">&quot;The value is: %g&quot;</span>, result);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
+</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="ttc" id="afastPolynom_8c_html_a840291bc02cba5474a4cb46a9b9566fe"><div class="ttname"><a href="fastPolynom_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a></div><div class="ttdeci">int main(void)</div><div class="ttdef"><b>Definition</b> <a href="#l00006">fastPolynom.c:6</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a href="dir_841074a078738926b5f0a0be4322e069.html">docs</a></li><li class="navelem"><a href="dir_6ee2f945a716c794a307e7b02908117c.html">files</a></li><li class="navelem"><a href="dir_674529d37a276663f2578bd75772302a.html">chapter2</a></li><li class="navelem"><a href="dir_3dcb2c8c19a6c485e972c485ea6891ca.html">src</a></li><li class="navelem"><a href="fastPolynom_8c.html">fastPolynom.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>

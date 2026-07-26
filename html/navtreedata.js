@@ -24,12 +24,23 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", ]
+  [ "C Programming", "index.html", [
+    [ "Introduction", "index.html#intro", null ],
+    [ "Project Structure", "index.html#structure", null ],
+    [ "Building", "index.html#build", null ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "Globals", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"addfrac2_8c.html"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

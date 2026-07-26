@@ -1,0 +1,35 @@
+.TH "" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+chapter2 src bills\&.c fastPolynom\&.c hello\&.c isphere\&.c loan\&.c polynom\&.c sphere\&.c stars\&.c tax\&.c 
+.PP
+chapter3 src addfrac2\&.c dates\&.c isbn\&.c receipt\&.c square\&.c telephone\&.c 
+.PP
+chapter4 src reverse\&.c 
+.PP
+docs files chapter2 src bills\&.c fastPolynom\&.c hello\&.c isphere\&.c loan\&.c polynom\&.c sphere\&.c stars\&.c tax\&.c 
+.PP
+chapter3 src addfrac2\&.c dates\&.c isbn\&.c receipt\&.c square\&.c telephone\&.c 
+.PP
+chapter4 src reverse\&.c 
+.PP
+files chapter2 src bills\&.c fastPolynom\&.c hello\&.c isphere\&.c loan\&.c polynom\&.c sphere\&.c stars\&.c tax\&.c 
+.PP
+chapter3 src addfrac2\&.c dates\&.c isbn\&.c receipt\&.c square\&.c telephone\&.c 
+.PP
+chapter4 src reverse\&.c 
+.PP
+scripts docs files chapter2 src bills\&.c fastPolynom\&.c hello\&.c isphere\&.c loan\&.c polynom\&.c sphere\&.c stars\&.c tax\&.c 
+.PP
+chapter3 src addfrac2\&.c dates\&.c isbn\&.c receipt\&.c square\&.c telephone\&.c 
+.PP
+chapter4 src reverse\&.c 
+.PP
+src bills\&.c fastPolynom\&.c hello\&.c isphere\&.c loan\&.c polynom\&.c sphere\&.c stars\&.c tax\&.c 
+.PP
+src addfrac2\&.c dates\&.c isbn\&.c receipt\&.c square\&.c telephone\&.c 
+.PP
+src reverse\&.c 
+.PP
+

@@ -1,0 +1,57 @@
+.TH "scripts/docs/files/chapter2/src/bills.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter2/src/bills.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB7\fP of file \fBbills\&.c\fP\&.
+.nf
+8 {
+9     int amount, twenties, tens, fives, ones;
+10 
+11     printf("Enter a dollar amount: ");
+12     scanf("%d", &amount);
+13 
+14     twenties = amount / 20;
+15     printf("$20 bills: %d\\n", twenties);
+16 
+17     amount = amount \- twenties*20;
+18 
+19     tens = amount / 10;
+20     printf("$10 bills: %d\\n", tens);
+21 
+22     amount = amount \- tens*10;
+23 
+24     fives = amount / 5;
+25     printf(" $5 bills: %d\\n", fives);
+26 
+27     amount = amount \- fives*5;
+28 
+29     ones = amount;
+30     printf(" $1 bills: %d", ones);
+31 
+32     return 0;
+33 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

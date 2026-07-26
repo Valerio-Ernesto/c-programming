@@ -1,0 +1,56 @@
+.TH "scripts/docs/files/chapter2/src/loan.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter2/src/loan.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB6\fP of file \fBloan\&.c\fP\&.
+.nf
+7 {
+8     float loan, interest, monthPayment, firstPay, secondPay, thirdPay;
+9 
+10     printf("Enter amount of loan: ");
+11     scanf("%f", &loan);
+12 
+13     printf("Enter interest rate: ");
+14     scanf("%f", &interest);
+15 
+16     printf("Enter monthly payment: ");
+17     scanf("%f", &monthPayment);
+18 
+19     interest = interest * 0\&.01f;
+20 
+21     firstPay = loan * (1 + interest /12) \- monthPayment;
+22     printf("Balance remaining after first payment: $%\&.2f\\n", firstPay);
+23 
+24     secondPay = firstPay * (1 + interest /12) \- monthPayment;
+25     printf("Balance remaining after second payment: $%\&.2f\\n", secondPay);
+26 
+27     thirdPay = secondPay * (1 + interest/12) \- monthPayment;
+28     printf("Balance remaining after third payment: $%\&.2f\\n", thirdPay);
+29     
+30     return 0;
+31 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.

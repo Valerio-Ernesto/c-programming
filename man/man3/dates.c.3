@@ -1,0 +1,40 @@
+.TH "scripts/docs/files/chapter3/src/dates.c" 3 "C Programming" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scripts/docs/files/chapter3/src/dates.c
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP (void)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main (void )"
+
+.PP
+Definition at line \fB7\fP of file \fBdates\&.c\fP\&.
+.nf
+8 {
+9     int day, month, year;
+10 
+11     printf("Enter a date (mm/dd/yyyy): ");
+12     scanf("%d/%d/%d", &month, &day, &year);
+13     printf("You entered the date %4\&.4d%2\&.2d%2\&.2d", year, month, day);
+14 
+15     return 0;
+16 }
+.PP
+.fi
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for C Programming from the source code\&.
