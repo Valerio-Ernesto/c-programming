@@ -85,7 +85,7 @@
   engraving by artist and mathematician Albrecht Dürer. (Note that the middle numbers in the
   last row give the date of the engraving.)
 
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/square.c")[Source Code]]
 
 + Modify the `addfrac.c` program of Section 3.2 so that the user enters both fractions at the
   same time, separated by a plus sign:
@@ -95,6 +95,6 @@
   The sum is 38/24
   ```
   
-  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/")[Source Code]]
+  #underline("Answer"): #text(fill:olive)[#link("files/chapter3/src/addfrac2.c")[Source Code]]
 
   #bibliography("references.yml")
