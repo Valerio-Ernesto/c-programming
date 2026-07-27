@@ -20,6 +20,6 @@
 * gcc hello.c -o hello
 * @endcode
 * 
-* @authot Ernesto Valenzuela Valerio
+* @author Ernesto Valenzuela Valerio
 * @date 2026
 */

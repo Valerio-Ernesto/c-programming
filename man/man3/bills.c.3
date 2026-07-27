@@ -2,7 +2,8 @@
 .ad l
 .nh
 .SH NAME
-scripts/docs/files/chapter2/src/bills.c
+scripts/docs/files/chapter2/src/bills.c \- Distribute a certain amount of money using\&.  
+
 .SH SYNOPSIS
 .br
 .PP
@@ -15,40 +16,79 @@ scripts/docs/files/chapter2/src/bills.c
 .ti -1c
 .RI "int \fBmain\fP (void)"
 .br
+.RI "Program entry point\&. "
 .in -1c
+.SH "Detailed Description"
+.PP 
+Distribute a certain amount of money using\&. 
+
+appropriate dollar bills\&.
+
+.PP
+This program receives a whole amount of dollars and distributes it in 20, 10, 5 and 1 dollar bills\&.
+
+.PP
+Example: 
+.PP
+.nf
+Enter a dollar amount: 93
+
+$20 bills: 4
+$10 bills: 1
+ $5 bills: 0
+ $1 bills: 3
+
+.fi
+.PP
+ 
+.PP
+Definition in file \fBbills\&.c\fP\&.
 .SH "Function Documentation"
 .PP 
 .SS "int main (void )"
 
 .PP
-Definition at line \fB7\fP of file \fBbills\&.c\fP\&.
+Program entry point\&. Prompts the user to enter a whole-dollar amount\&. The program computes the required number of $20, $10, $5, and $1 bills using integer division\&.
+
+.PP
+\fBReturns\fP
+.RS 4
+Returns a list containing the number of bills for each denomination 
+
+.PP
+whose total value equals the amount entered by the user\&. 
+.RE
+.PP
+
+.PP
+Definition at line \fB33\fP of file \fBbills\&.c\fP\&.
 .nf
-8 {
-9     int amount, twenties, tens, fives, ones;
-10 
-11     printf("Enter a dollar amount: ");
-12     scanf("%d", &amount);
-13 
-14     twenties = amount / 20;
-15     printf("$20 bills: %d\\n", twenties);
-16 
-17     amount = amount \- twenties*20;
-18 
-19     tens = amount / 10;
-20     printf("$10 bills: %d\\n", tens);
-21 
-22     amount = amount \- tens*10;
-23 
-24     fives = amount / 5;
-25     printf(" $5 bills: %d\\n", fives);
-26 
-27     amount = amount \- fives*5;
-28 
-29     ones = amount;
-30     printf(" $1 bills: %d", ones);
-31 
-32     return 0;
-33 }
+34 {
+35     int amount, twenties, tens, fives, ones;
+36 
+37     printf("Enter a dollar amount: ");
+38     scanf("%d", &amount);
+39 
+40     twenties = amount / 20;
+41     printf("$20 bills: %d\\n", twenties);
+42 
+43     amount = amount \- twenties*20;
+44 
+45     tens = amount / 10;
+46     printf("$10 bills: %d\\n", tens);
+47 
+48     amount = amount \- tens*10;
+49 
+50     fives = amount / 5;
+51     printf(" $5 bills: %d\\n", fives);
+52 
+53     amount = amount \- fives*5;
+54 
+55     ones = amount;
+56     printf(" $1 bills: %d", ones);
+57 
+58     return 0;
+59 }
 .PP
 .fi
 
